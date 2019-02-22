@@ -12,10 +12,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .wrapper{
     display:Flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     height:100%;
-}
+    margin-right: 5%;
+}  
 
 .contenedorLinks{
     display: flex;
@@ -23,13 +24,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 100%;
     align-self: flex-start;
     font-size: 15px;
+    position: fixed;
+    top: 0px;
+    left:0;
 }
 
 .contenedorLinks img {
-    width: 70%;
+    width: 50%;
     margin-bottom: 5%;
 }
 
